@@ -1,6 +1,6 @@
 clc;clear;close all;
 
-img_color = imread('football.jpg');
+img_color = imread('lena.jpg');
 img1 = rgb2gray(img_color);
 figure;
 imshow(img1)
